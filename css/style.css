@@ -1781,7 +1781,7 @@ a > img.fh5co-align-center {
 
 .card-title{
   border:1px; border-style:solid; border-color:grey; padding: 1em; border-radius:10px;
-  font-family: fantasy;
+  font-family: inherit;
   font-stretch:semi-expanded;
   font-size: 3rem;
   color: #5255FA;
@@ -1861,7 +1861,7 @@ a > img.fh5co-align-center {
 }
 
 .titlebox{
-margin-left: 400px;
+text-align: center;
   
 }
 
@@ -1886,7 +1886,6 @@ color: white;
   .titletech {
     font-size: 40px;
    text-align: center;
-   margin: 0 auto;
    
   }
 }
@@ -1918,7 +1917,8 @@ color: white;
 
 @media screen and (max-width: 480px) {
   .card-footer{
-  
+   
+
     width: 100%;
    
    
