@@ -181,12 +181,12 @@
           </h3>
           
           <button
-          href="http://covidwatch1.herokuapp.com"
+             
             type="button"
-            class="btn btn-primary"
-           
+            class="btn btn-primary "
+            id="covidbtn"
           >
-            watch
+          watch
           </button>
         </div>
         <div
@@ -217,7 +217,7 @@
           </h3>
          
           <button
-           
+          id="moviesbtn"
             type="button"
             class="btn btn-primary"
           
@@ -346,5 +346,16 @@
 		<script src="js/jquery.waypoints.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+    
+<script type="text/javascript">
+  document.getElementById("moviesbtn").onclick = function () {
+      window.location.href = "http://www.mymovies22.herokuapp.com";
+  };
+</script>
+<script type="text/javascript">
+  document.getElementById("covidbtn").onclick = function () {
+      window.location.href = "http://www.covidwatch1.herokuapp.com";
+  };
+</script>
   </body>
 </html>
